@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh "ssh student@172.16.7.184 'hostname&&pwd&&whoami'"
+                sh "ssh student@172.16.7.163 'hostname&&pwd&&whoami'"
             }
         }
     }
