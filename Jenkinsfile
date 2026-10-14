@@ -19,7 +19,7 @@ pipeline {
         }
         stage("Second step") {
             steps {
-                sh 'ssh student@172.16.7.184 \'uptime\''
+                sh 'ssh student@172.16.7.163 \'uptime\''
             }
         }
     }
